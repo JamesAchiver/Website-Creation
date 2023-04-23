@@ -1,0 +1,29 @@
+
+
+form > input {
+     background-color : #eee ;
+     color: #000;
+     font-size: 13px;
+     border-radius: 5px;
+     font-weight: 600;
+     padding: 5px;
+     margin-left: 10px;
+}
+
+form > fieldset > label {
+     font-size : 18px ;
+     font-weight :500;
+     padding: 20px;
+     color: #000 ;
+}
+
+form > fieldset > legend {
+     color : #000;
+     padding: 10px;
+     font-weight : 900;
+}
+
+.page-2-fieldset > h1 , p {
+     font-size : 20px;
+     font-weight: 500;
+}
