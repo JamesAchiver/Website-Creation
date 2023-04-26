@@ -4,42 +4,49 @@
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Input Practise</title>
+     <title>Morden Shade Login Page</title>
      <link rel="stylesheet" href="/CSS-Practise/Countdown/style.css">
 </head>
 <body>
-     <center>
-     </center>
-     <form action="/CSS-Practise/Countdown/page-2.html" method="post">
-          <fieldset>
-               <legend>Log in Form</legend>
-               <label for="firstName">First Name : </label>
-               <input type="text" name="firstName" id="firstName" placeholder="Enter First Name"><br><br>
-               <label for="lastName">Last Name : </label>
-               <input type="text" name="lastName" id="lastName" placeholder="Enter Last Name"><br><br>
-               <label for="password">Enter Password : </label>
-               <input type="password" id="password" name="password" placeholder="Enter Your Password"><br><br>
-               <label for="Email">Enter Your Email : </label>
-               <input type="email" id="Email" placeholder="Enter Your Email"><br><br>
-               <label for="Number">Enter Your Number : </label>
-               <input type="text" id="Number" placeholder="Enter Your Number" maxlength="10"><br><br>
-               <label for="select-color">Select Color : </label>
-               <input type="color" id="select-color"><br><br>
-               <label for="DOB">Select Your DOB: </label>
-               <input type="date" id="DOB"><br><br>
-               <label for="Time-arrival">Time Of Arrival : </label>
-               <input type="time" id="Time-arrival" ><br><br>
-               <label for="File-Upload">Upload Your File : </label>
-               <input type="file" id="File-Upload"><br><br>
-               <label for="experience">Range of Experience : </label>
-               <input type="range" min="0" max="3" id="experience" ><br><br>
-               <label for="policy-radio">Accept your policy</label>
-               <input type="radio" name="policy" id="policy-radio"><br><br>
-               <center>
-                    <input type="submit" id="btn" >
-               </center>
-          </fieldset>
-     </form>
-     <script src="/CSS-Practise/Countdown/app.js"></script>
+
+     <div class="container">
+          <form action="#" id="form-1">
+               <!-- Container-Heading -->
+               <h2>Log In</h2>
+               <!-- User-Input Elements -->
+               <div class="Input_wrapper">
+                    <input type="text" placeholder="Full Name" name="Name">
+                    <input type="password" placeholder="Password" name="Password">
+                    <input type="submit">
+               </div>
+
+               <!-- Authorization Elements -->
+               <div class="Authorization-variants">
+                    <!-- FontAwesome Icons For Authorization  -->
+                    <a href="#" target="_blank">
+                         <i class="fa-brands fa-google fa-xl"></i>
+                    </a>
+                    <a href="#" target="_blank">
+                         <i class="fa-brands fa-facebook fa-xl"></i>
+                    </a>
+               </div>
+
+               <a href="#">Forget Password ?</a>
+
+               <!-- Side Design Elements For CSS View  -->
+               <div class="element">
+                    <div class="element element-1" data-parallax-value="2"></div>
+                    <div class="element element-2" data-parallax-value="3"></div>
+                    <div class="element element-3" data-parallax-value="2"></div>
+                    <div class="element element-4" data-parallax-value="3"></div>
+               </div>
+
+
+          </form>
+     </div>
+
+     <!-- link of Javascript Files -->
+     <script src="/CSS-Practise/Countdown/index.js"></script>
+     <script src="https://kit.fontawesome.com/07a6501610.js" crossorigin="anonymous"></script>
 </body>
 </html>

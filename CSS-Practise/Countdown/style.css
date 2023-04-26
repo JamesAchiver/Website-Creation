@@ -1,29 +1,34 @@
+/* Google Font Link   */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
 
+/* The root pseudo-class Represent The HTML Element of a Page.    */
 
-form > input {
-     background-color : #eee ;
-     color: #000;
-     font-size: 13px;
-     border-radius: 5px;
-     font-weight: 600;
-     padding: 5px;
-     margin-left: 10px;
+:root {
+     --morphic-color : rgba(16 81 27 / 40%);
 }
 
-form > fieldset > label {
-     font-size : 18px ;
-     font-weight :500;
-     padding: 20px;
-     color: #000 ;
+body {
+     width: 100vw;
+     height: 100vh;
+     background : linear-gradient(45deg , #fc466b , #3f5efb);
+     background-size : 150% 150%;
+     font-family: 'Montserrat' , sans-serif ;
+     overflow: hidden;
 }
 
-form > fieldset > legend {
-     color : #000;
-     padding: 10px;
-     font-weight : 900;
+.container {
+     position : absolute;
+     left: 50%;
+     transform: translateX(-50%);
+     padding-top: 50px;
 }
 
-.page-2-fieldset > h1 , p {
-     font-size : 20px;
-     font-weight: 500;
+#form-1 {
+     position: relative;
+     background-color: var(--morphic-color);
+     padding: 0 3em 2em;
+     border-radius: 20px;
+     border-left : 1px solid var(--morphic-color);
+     border-top : 1px solid var(--morphic-color);
+     backdrop-filter: blur(20px); 
 }
